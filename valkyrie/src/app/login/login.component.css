@@ -5,44 +5,42 @@
 	height: 250px;
 }
 
-/*################################*/
-/*This is the border of the window*/
-/*################################*/
+.logodiv {
+	margin: 0 auto;
+	margin-left: 2%;
+	margin-top: 10%;
+	height: 200px;
+	background-image: url('https://i.imgur.com/fqyPd2Q.png');
+	background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+
 #top, #bottom, #left, #right {
-	background: #CFB53B;
+	background: #3FC6B8;
 	position: fixed;
 }
 
 #left, #right {
-	top: 0; bottom: 0;
-	width: 10px;
-	height: 95%;
-	margin-top: 3.5%
+		top: 0; bottom: 0;
+		width: 15px;
 }
 
+#left { left: 0; 
+}
+		
+#right { right: 0; 
+}
+		
 #top, #bottom {
 	left: 0; right: 0;
-	height: 10px;
-	width: 96%;
-	margin-left: 2%
-
+	height: 15px;
 }
 
-#right { 
-	right: 2%; 
+#top { top: 0; 
 }
 
-#top { 
-	top: 2%; 
+#bottom { bottom: 0; 
 }
 
-#bottom { 
-	bottom: 2%; 
-}
-
-#left { 
-	left: 2%;
-}
-/*################################*/
-/*################################*/
-/*################################*/
