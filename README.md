@@ -1,4 +1,5 @@
-# Valkyrie
+
+![alt text](https://i.imgur.com/AJg0onw.png)
 ### Contributors: 
 **RJ McBain**: [GitHub](https://github.com/rjmcbain)
 
