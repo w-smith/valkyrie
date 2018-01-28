@@ -9,13 +9,66 @@
 	margin: 0 auto;
 	margin-top: 10%;
 	height: 150px;
+	width: 100%;
 	background-image: url('https://i.imgur.com/VbLFyhC.png');
 	background-repeat: no-repeat;
     background-position: center;
+    position: absolute;
+}
 
+.formdiv {
+	height: 300px;
+	margin-top: 65%;
+}
+
+#email {
+	font-size: 140%;
+	margin-top: 5%;
+	margin-left: 15%;
+	position: absolute;
+	width: 70%;
+	height: 30%;
+	border: 2px solid black;
 
 }
 
+#password{
+	font-size: 140%;
+	margin-top: 20%;
+	margin-left: 15%;
+	position: absolute;
+	width: 70%;
+	height: 30%;
+	border: 2px solid black;
+}
+
+#submit {
+	font-size: 150%;
+	margin-left: 25%;
+	margin-top: 40%;
+	height: 30%;
+	position: absolute;
+	width: 50%;
+	border: 2px solid black;
+	background: #3FC6B8;
+	color: white;
+}
+
+#signup {
+	font-weight: bold;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	font-size: 140%;
+	margin-top: 80%;
+}
+
+
+
+
+
+
+/*THIS IS THE BORDER AROUND THE PAGE*/
 #top, #bottom, #left, #right {
 	background: #3FC6B8;
 	position: fixed;
@@ -26,10 +79,12 @@
 		width: 15px;
 }
 
-#left { left: 0; 
+#left { 
+	left: 0; 
 }
 		
-#right { right: 0; 
+#right { 
+	right: 0; 
 }
 		
 #top, #bottom {
@@ -37,9 +92,11 @@
 	height: 15px;
 }
 
-#top { top: 0; 
+#top { 
+	top: 0; 
 }
 
-#bottom { bottom: 0; 
+#bottom { 
+	bottom: 0; 
 }
 
