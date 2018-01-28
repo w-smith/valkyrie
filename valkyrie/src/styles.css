@@ -1,17 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 
 body {
-font-family: 'Skranji', cursive;
-background: black;
-color:#CFB53B;
-text-align: center;
-}
-
-h1 {
-font-size: 10vh;
-}
-
-p {
-font-size: 3vh;
+	background: #778083;
+	margin: 0;
 }
 

@@ -1,0 +1,48 @@
+.headerbox {
+	position: absolute;
+	width: 100%;
+	background-color: black;
+	height: 250px;
+}
+
+/*################################*/
+/*This is the border of the window*/
+/*################################*/
+#top, #bottom, #left, #right {
+	background: #CFB53B;
+	position: fixed;
+}
+
+#left, #right {
+	top: 0; bottom: 0;
+	width: 10px;
+	height: 95%;
+	margin-top: 3.5%
+}
+
+#top, #bottom {
+	left: 0; right: 0;
+	height: 10px;
+	width: 96%;
+	margin-left: 2%
+
+}
+
+#right { 
+	right: 2%; 
+}
+
+#top { 
+	top: 2%; 
+}
+
+#bottom { 
+	bottom: 2%; 
+}
+
+#left { 
+	left: 2%;
+}
+/*################################*/
+/*################################*/
+/*################################*/
