@@ -1,0 +1,26 @@
+{
+  "name": "valkyrie",
+  "version": "1.0.0",
+  "description": "![alt text](https://i.imgur.com/AJg0onw.png) ### Contributors:  **RJ McBain**: [GitHub](https://github.com/rjmcbain)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/w-smith/valkyrie.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/w-smith/valkyrie/issues"
+  },
+  "homepage": "https://github.com/w-smith/valkyrie#readme",
+  "dependencies": {
+    "angular": "^1.6.8",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "passport": "^0.4.0"
+  }
+}
