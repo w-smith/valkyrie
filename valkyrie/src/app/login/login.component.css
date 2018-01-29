@@ -1,8 +1,6 @@
-
 .headerbox {
 	position: absolute;
 	width: 100%;
-
 	height: 250px;
 }
 
@@ -26,6 +24,8 @@
 	margin-top: 35%;
 }
 
+
+/*FORM STYLING*/ /*FORM STYLING*/ /*FORM STYLING*/
 .formdiv {
 	height: 300px;
 	margin-top: 65%;
@@ -79,10 +79,6 @@
 	font-size: 170%;
 	margin-top: 96%;
 }
-
-
-
-
 
 
 /*THIS IS THE BORDER AROUND THE PAGE*/
