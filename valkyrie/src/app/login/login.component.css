@@ -16,6 +16,15 @@
     position: absolute;
 }
 
+#valkyrie {
+	text-align: center;
+	letter-spacing: 8px;
+	font-family: 'PT Mono', monospace;
+	color: white;
+	font-size: 300%;
+	margin-top: 35%;
+}
+
 .formdiv {
 	height: 300px;
 	margin-top: 65%;
@@ -23,44 +32,49 @@
 
 #email {
 	font-size: 140%;
-	margin-top: 5%;
+	margin-top: 10%;
 	margin-left: 15%;
 	position: absolute;
 	width: 70%;
-	height: 30%;
+	height: 20%;
 	border: 2px solid black;
 
 }
 
 #password{
 	font-size: 140%;
-	margin-top: 20%;
+	margin-top: 25%;
 	margin-left: 15%;
 	position: absolute;
 	width: 70%;
-	height: 30%;
+	height: 20%;
 	border: 2px solid black;
 }
 
 #submit {
+
 	font-size: 150%;
 	margin-left: 25%;
-	margin-top: 40%;
-	height: 30%;
+	margin-top: 45%;
+	height: 20%;
 	position: absolute;
 	width: 50%;
 	border: 2px solid black;
 	background: #3FC6B8;
-	color: white;
+	background: linear-gradient(#C5EDE9, #3FC6B8);
+	color: black;
 }
 
 #signup {
+	letter-spacing: 3px;
+	font-family: 'PT Mono', monospace;
+	font
 	font-weight: bold;
 	width: 100%;
 	text-align: center;
 	position: absolute;
-	font-size: 140%;
-	margin-top: 80%;
+	font-size: 170%;
+	margin-top: 90%;
 }
 
 
