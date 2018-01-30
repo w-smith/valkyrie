@@ -10,7 +10,7 @@
     position: absolute;
 }
 
-#valkyrie {
+#title {
 	position: absolute;
 	width: 100%;
 	text-align: center;
@@ -50,6 +50,7 @@
 }
 
 
+
 #submit {
 	letter-spacing: 4px;
 	font-family: 'PT Mono', monospace;
@@ -66,7 +67,7 @@
 	color: black;
 }
 
-#signup {
+#footer {
 	letter-spacing: 3px;
 	font-family: 'PT Mono', monospace;
 	color: #f1f2f2;

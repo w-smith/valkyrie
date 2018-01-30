@@ -1,29 +1,53 @@
-/*FORM STYLING*/ /*FORM STYLING*/ /*FORM STYLING*/
 .formdiv {
 	height: 300px;
-	margin-top: 65%;
+	margin-top: 30%;
+}
+
+#title {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	line-height: 120%;
+	letter-spacing: 8px;
+	font-family: 'PT Mono', monospace;
+	font-weight: bold;
+	color: white;
+	margin-top: 0%;
+	font-size: 300%;
 }
 
 #email {
 	font-size: 140%;
-	margin-top: 12%;
+	margin-top: 35%;
 	margin-left: 15%;
 	position: absolute;
 	width: 70%;
-	height: 20%;
+	height: 7%;
 	border: 2px solid black;
 
 }
 
-#password, #repeatpassword {
+#password{
 	font-size: 140%;
-	margin-top: 30%;
+	margin-top: 52%;
 	margin-left: 15%;
 	position: absolute;
 	width: 70%;
-	height: 20%;
+	height: 7%;
 	border: 2px solid black;
 }
+
+#repeatpassword{
+	font-size: 140%;
+	margin-top: 69%;
+	margin-left: 15%;
+	position: absolute;
+	width: 70%;
+	height: 7%;
+	border: 2px solid black;
+}
+
+
 
 #submit {
 	letter-spacing: 4px;
@@ -31,8 +55,8 @@
 	font-weight: bold;
 	font-size: 150%;
 	margin-left: 25%;
-	margin-top: 50%;
-	height: 20%;
+	margin-top: 90%;
+	height: 7%;
 	position: absolute;
 	width: 50%;
 	border: 2px solid black;
@@ -40,3 +64,16 @@
 	background: linear-gradient(#C5EDE9, #3FC6B8);
 	color: black;
 }
+
+#footer {
+	letter-spacing: 3px;
+	font-family: 'PT Mono', monospace;
+	color: #f1f2f2;
+	font-weight: bold;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	font-size: 170%;
+	margin-top: 125%;
+}
+
