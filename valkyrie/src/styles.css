@@ -3,3 +3,37 @@ body {
       height: 100vh;
       background: linear-gradient(black, black, black, #25766E); 
     }
+
+    
+/*THIS IS THE BORDER AROUND THE PAGE*/
+#top, #bottom, #left, #right {
+	background: #25766E;
+	position: fixed;
+}
+
+#left, #right {
+		top: 0; bottom: 0;
+		width: 7px;
+}
+
+#left { 
+	left: 0; 
+}
+		
+#right { 
+	right: 0; 
+}
+		
+#top, #bottom {
+	left: 0; right: 0;
+	height: 7px;
+}
+
+#top { 
+	top: 0; 
+}
+
+#bottom { 
+	bottom: 0; 
+}
+
