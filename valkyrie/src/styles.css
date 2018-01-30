@@ -4,6 +4,9 @@ body {
       background: linear-gradient(black, #25766E); 
     }
 
+    /*SCROLL LOCK*/
+html, body {margin: 0; height: 100%; overflow: hidden}
+
     
 /*THIS IS THE BORDER AROUND THE PAGE*/
 #top, #bottom, #left, #right {

@@ -19,9 +19,12 @@
   "homepage": "https://github.com/w-smith/valkyrie#readme",
   "dependencies": {
     "angular": "^1.6.8",
+    "angularfire2": "^5.0.0-rc.6",
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
+    "firebase": "^4.9.0",
     "igdb-api-node": "^3.1.1",
+    "jquery": "^3.3.1",
     "passport": "^0.4.0"
   },
   "devDependencies": {
