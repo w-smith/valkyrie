@@ -1,9 +1,9 @@
 module.exports = function(sequelize, Sequelize){
-    let model = sequelize.define("users", {
+    let usersModel = sequelize.define("user", {
       name: Sequelize.STRING,
       gamertag: Sequelize.STRING
       }
 
     );
-    return model;
+    return usersModel;
   };

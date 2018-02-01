@@ -1,10 +1,10 @@
 module.exports = function(sequelize, Sequelize){
-    let model = sequelize.define("games", {
+    let gamesModel = sequelize.define("game", {
       name: Sequelize.STRING,
       console: Sequelize.STRING,
       year: Sequelize.STRING
       }
 
     );
-    return model;
+    return gamesModel;
   };
