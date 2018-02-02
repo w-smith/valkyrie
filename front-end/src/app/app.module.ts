@@ -10,7 +10,7 @@ import { SearchComponent } from './search/search.component';
 import * as $ from 'jquery'
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireAuthModule } from 'angularfire2/auth';
-import { ProfileComponent } from './profile/profile.component';
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { EmailComponent } from './email/email.component';
@@ -30,7 +30,7 @@ const firebaseConfig = {
     SignupComponent,
     LoginComponent,
     ProfileComponent,
-    SearchComponent
+    SearchComponent,
     ProfileComponent,
     EmailComponent
   ],
@@ -42,8 +42,7 @@ const firebaseConfig = {
     AngularFireAuthModule
 
   ],
-  providers: [],
-  providers: [ AuthService ],
+  providers: [AuthService],
   bootstrap: [AppComponent]
 })
 export class AppModule { 
