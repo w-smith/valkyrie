@@ -2,20 +2,21 @@ import { Component, OnInit } from '@angular/core';
 import { AuthService } from '../auth.service';
 
 @Component({
-  selector: 'app-signup',
-  templateUrl: './signup.component.html',
-  styleUrls: ['./signup.component.css']
+  selector: 'app-email',
+  templateUrl: './email.component.html',
+  styleUrls: ['./email.component.css']
 })
-export class SignupComponent implements OnInit {
+export class EmailComponent implements OnInit {
 
-  constructor(public authService: AuthService) { }
+  constructor(
+    private authService: AuthService) { }
 
   ngOnInit() {}
 
   onSubmit(formData) {
     if (formData.valid) {
       console.log(formData.value);
-      this.authService.emailSignup(
+      this.authService.login(
         formData.value.email,
         formData.value.password
       );
