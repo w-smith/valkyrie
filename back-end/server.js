@@ -9,6 +9,9 @@ require('dotenv').config();
 // Load Routes
 const router = require('./config/routes');
 
+//Middleware
+app.use(bodyParser.json());
+
 // Heroku Crap
 if(!process.env.DYNO) {
     app.use(function(req, res, next) {
@@ -33,7 +36,7 @@ if(!process.env.DYNO) {
 
 // Use Routes
 app.use('/', router)
-app.use(express.static(__dirname + '/dist'));
+// app.use(express.static(__dirname + '/dist'));
 
 
 

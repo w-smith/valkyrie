@@ -7,6 +7,8 @@ const gamesController = require('../controllers/games.js');
 //     res.send('Hello World Again');
 // });
 
-router.get('/hello', usersController.hello);
+// router.get('/hello', usersController.hello);
+router.get('/api/index', usersController.index);
+router.get('/api/index', usersController.create);
 
 module.exports = router;
