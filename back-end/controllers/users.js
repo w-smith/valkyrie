@@ -6,18 +6,10 @@ const Users = db.models.Users;
 // 	console.log('hello!!!');							//user sees when
 // };	
 
-// function index(req, res) {
-//     Users.findAll().then(function(users) {
-//       res.json(users);
-//     });
-//   }
-
-
 function index(req, res) {
-	Users.findAll().then(function(user) {
-		// console.log(user);
-	  res.json(user);
-	});
+    Users.findAll().then(function(users) {
+      res.json(users);
+    });
   }
 
   function create(req, res) {

@@ -36,7 +36,7 @@ if(!process.env.DYNO) {
 
 // Use Routes
 app.use('/', router)
-// app.use(express.static(__dirname + '/dist'));
+app.use(express.static(__dirname + '/dist'));
 
 
 
