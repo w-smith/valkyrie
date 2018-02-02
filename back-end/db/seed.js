@@ -23,18 +23,28 @@ var DB = require("../models").models;
 const userCreate = [
     {
         name: 'RJ McBain',
-        gamertag: 'Rectal Jam'
+        username: 'Rectal Jam'
     },
     {
         name: 'Matt Steffey',
-        gamertag: 'MalcomFlex'
+        username: 'MalcomFlex'
     },
     {
         name: 'Will Smith',
-        gamertag: 'HellenSteller'
+        username: 'HellenSteller'
     }
 ]
 
-const createUsers = () => {
-    return DB.Users.bulkCreate(users)
-};
+// const createUsers = () => {
+//     return DB.Users.bulkCreate(users)
+// };
+
+
+	DB.Users.bulkCreate(userCreate, function(err, users) { 
+
+	  if (err){
+		return console.log('Error:', err);
+	  }
+
+	    process.exit();
+    });
