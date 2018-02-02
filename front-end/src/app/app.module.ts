@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-
+import { AuthService } from './auth.service';
 import { AppComponent } from './app.component';
 import { SignupComponent } from './signup/signup.component';
 import { LoginComponent } from './login/login.component';
@@ -10,6 +10,10 @@ import { SearchComponent } from './search/search.component';
 import * as $ from 'jquery'
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireAuthModule } from 'angularfire2/auth';
+import { ProfileComponent } from './profile/profile.component';
+
+import { AppRoutingModule } from './app-routing.module';
+import { EmailComponent } from './email/email.component';
 
 const firebaseConfig = {
     apiKey: "AIzaSyBNSycBUmjHmr76tMGF3oB8gJgcyQy5KDE",
@@ -27,15 +31,19 @@ const firebaseConfig = {
     LoginComponent,
     ProfileComponent,
     SearchComponent
+    ProfileComponent,
+    EmailComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
+    AppRoutingModule,
     AngularFireModule.initializeApp(firebaseConfig),
     AngularFireAuthModule
 
   ],
   providers: [],
+  providers: [ AuthService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { 
