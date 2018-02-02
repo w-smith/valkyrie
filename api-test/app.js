@@ -35,6 +35,7 @@ btn.addEventListener('click', function() {
 					//this repeats for as many platforms as necessary
     			}
     		}
+    		console.log(ourData);
    		};
 			ourRequest.send(); //don't remember what this does, but it's important
 });
