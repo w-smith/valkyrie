@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { AuthService } from '../auth.service';
 
-
 @Component({
   selector: 'app-signup',
   templateUrl: './signup.component.html',
@@ -9,13 +8,9 @@ import { AuthService } from '../auth.service';
 })
 export class SignupComponent implements OnInit {
 
-  constructor() { }
+  constructor(public authService: AuthService) { }
 
-  ngOnInit() {
-	
-	}
-
-
+  ngOnInit() {}
 
   onSubmit(formData) {
     if (formData.valid) {
@@ -23,4 +18,7 @@ export class SignupComponent implements OnInit {
       this.authService.emailSignup(
         formData.value.email,
         formData.value.password
+      );
+    }
+  }
 }
