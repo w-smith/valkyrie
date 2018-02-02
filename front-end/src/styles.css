@@ -1,14 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
-body {
+/*body {
       height: 100vh;
       background: linear-gradient(black, #25766E); 
     }
-
+*/
     /*SCROLL LOCK*/
-html, body {margin: 0; height: 100%; overflow: hidden}
+/*html, body {margin: 0; height: 100%; overflow: hidden}
 
     
-/*THIS IS THE BORDER AROUND THE PAGE*/
+
 #top, #bottom, #left, #right {
 	background: #25766E;
 	position: fixed;
@@ -40,3 +40,4 @@ html, body {margin: 0; height: 100%; overflow: hidden}
 	bottom: 0; 
 }
 
+*/
