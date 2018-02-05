@@ -1,3 +1,70 @@
-#psnName, #submit {
-	border: 2px solid black;
+#xbox {
+	position: absolute;
+	margin-top: 10%;
+	margin-left: 5%;
 }
+
+#steam {
+	position: absolute;
+	margin-top: 20%;
+	margin-left: 5%;
+}
+
+#psn {
+	position: absolute;
+	margin-top: 30%;
+	margin-left: 5%;
+}
+
+#bnet {
+	position: absolute;
+	margin-top: 40%;
+	margin-left: 5%;
+}
+
+#xboxName {
+	border: 1px solid black;
+	position: absolute;
+	width: 50%;
+	margin-left: 45%;
+	margin-top: 10%;
+
+}
+
+#steamName {
+	border: 1px solid black;
+	position: absolute;
+	width: 50%;
+	margin-left: 45%;
+	margin-top: 20%;
+
+	
+}
+
+#psnName {
+	border: 1px solid black;
+	position: absolute;
+	width: 50%;
+	margin-left: 45%;
+	margin-top: 30%;
+	
+}
+
+#bnetName {
+	border: 1px solid black;
+	position: absolute;
+	width: 50%;
+	margin-left: 45%;
+	margin-top: 40%;
+}
+
+#submit {
+	width: 50%;
+	border: 1px solid black;
+	margin-left: 25%;
+	margin-top: 55%;
+
+}
+
+
+
