@@ -15,10 +15,35 @@ function index(req, res) {
 
   function create(req, res) {
 	Users.create(req.body).then(function(user){
-	  if(!user) res.send("user not saved");
+	  if(!user) res.send("User not saved");
 	  res.json(user);
 	});
   }
-// module.exports.hello = hello;
-module.exports.index = index;
-module.exports.create = create;
+  
+  function update(req, res) {
+    Users.findById(req.params.id)
+    .then(function(user){
+      if(!user) res.send("User not found");
+      else return user.updateAttributes(req.body);
+    })
+    .then(function(user){
+      res.json(user);
+    });
+  }
+  
+  function destroy(req, res) {
+    User.findById(req.params.id)
+    .then(function(user){
+      if(!user) res.send("User not found");
+      else return user.destroy();
+    })
+    .then(function(){
+      res.send("User deleted");
+    });  
+  }
+  
+  module.exports.index = index;
+  module.exports.show = show;
+  module.exports.create = create;
+  module.exports.update = update;
+  module.exports.destroy = destroy;

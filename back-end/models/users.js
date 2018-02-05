@@ -1,7 +1,10 @@
 module.exports = function(sequelize, Sequelize){
     let usersModel = sequelize.define("user", {
-      name: Sequelize.STRING,
-      username: Sequelize.STRING
+      email: Sequelize.STRING,
+      xbox: Sequelize.STRING,
+      psn: Sequelize.STRING,
+      bnet: Sequelize.STRING,
+      steam: Sequelize.STRING
       }
       
     );
