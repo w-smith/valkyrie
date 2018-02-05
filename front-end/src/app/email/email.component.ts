@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AuthService } from '../auth.service';
 
 @Component({
   selector: 'app-email',
@@ -7,9 +8,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EmailComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private authService: AuthService) { }
 
-  ngOnInit() {
+  ngOnInit() {}
+
+  onSubmit(formData) {
+    if (formData.valid) {
+      console.log(formData.value);
+      this.authService.login(
+        formData.value.email,
+        formData.value.password
+      );
+    }
   }
-
 }
