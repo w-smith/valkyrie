@@ -30,17 +30,17 @@
 </div> -->
 
 <form (ngSubmit)="updateUser(updatedUser)">
-        <label for="title">Xbox Live Gamertag:</label>
-        <input name="title" [(ngModel)]="updatedUser.title">
+        <label for="xbox">Xbox Live Gamertag:</label>
+        <input name="xbox" [(ngModel)]="updatedUser.xbox">
       
-        <label for="duration">Steam ID:</label>
-        <input name="duration" [(ngModel)]="updatedUser.duration">
+        <label for="steam">Steam ID:</label>
+        <input name="steam" [(ngModel)]="updatedUser.steam">
       
-        <label for="date_of_release">PSN Online ID:</label>
-        <input name="date_of_release" [(ngModel)]="updatedUser.date_of_release">
+        <label for="psn">PSN Online ID:</label>
+        <input name="psn" [(ngModel)]="updatedUser.psn">
       
-        <label for="album_title">Battle.net ID:</label>
-        <input name="album_title" [(ngModel)]="updatedUser.album_title">
+        <label for="bnet">Battle.net ID:</label>
+        <input name="bnet" [(ngModel)]="updatedUser.bnet">
       
         <input type="submit" value="Update">
       </form>
