@@ -17,13 +17,13 @@ export class AuthService {
   login(email: string, password: string) {
     this.afAuth.auth.signInWithEmailAndPassword(email, password)
     .then(value => {
-<<<<<<< HEAD
+
       console.log('Nice, it worked!', value.email);
       this.router.navigateByUrl('/profile');
-=======
+
       console.log('Nice, it worked!', value.uid);
       this.router.navigateByUrl('/' + value.uid + '/profile');
->>>>>>> 8607a2575365bb18df26ba2acbab5eb2fcd49798
+
     })
     .catch(err => {
       console.log('Something went wrong: ', err.message);
@@ -33,13 +33,13 @@ export class AuthService {
   emailSignup(email: string, password: string) {
     this.afAuth.auth.createUserWithEmailAndPassword(email, password)
     .then(value => {
-<<<<<<< HEAD
+
      console.log('Success', value.email);
      this.router.navigateByUrl('/profile');
-=======
+
      console.log('Success', value.uid);
      this.router.navigateByUrl('/' + value.uid + '/profile');
->>>>>>> 8607a2575365bb18df26ba2acbab5eb2fcd49798
+
     })
     .catch(error => {
       console.log('Something went wrong: ', error);
