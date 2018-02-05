@@ -14,11 +14,6 @@
 	margin-bottom: 8%;
 }
 
-#pencil {
-	text-align: center;
-	max-width: 200%;
-}
-
 
 #tablediv {
 	width: 100%;
@@ -63,14 +58,18 @@ div.blueTable {
 .divTableBody { display: table-row-group;}
 
 #col1 {
-	width: 30%;
+	width: 20%;
 }
 
 #col2 {
-	width: 30%;
+	width: 20%;
 }
 
 #col3 {
 	width: 10%;
 	background-color: white;
+}
+
+#psnpencil, #xboxpencil, #steampencil, #bnetpencil, #riotpencil {
+	width: 400%;
 }
