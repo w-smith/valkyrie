@@ -1,18 +1,16 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { UsersService } from './edit-profile.service';
+import { UsersService } from '../services/edit-profile.service';
 import { ActivatedRoute, Router }   from '@angular/router';
-import { ProfileComponent } from '../profile/profile.component';
 
 @Component({
   selector: 'app-edit-profile',
   templateUrl: './edit-profile.component.html',
   styleUrls: ['./edit-profile.component.css']
 })
+export class EditProfileComponent implements OnInit {
 
-export class UserEditComponent implements OnInit {
-
-	updatedUser = <any>{};
+  updatedUser = <any>{};
 
   constructor(
     private route : ActivatedRoute,

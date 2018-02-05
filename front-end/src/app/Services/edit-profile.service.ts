@@ -6,6 +6,8 @@ export class UsersService {
 
 	baseUrl = 'http://localhost:3000';
 
+	constructor(private http: Http) { }
+
 	getAllUsers() {
 		return this.http.get(`${this.baseUrl}/api/users`);
 	}
@@ -28,7 +30,5 @@ export class UsersService {
 	updateUser(updatedUser) {
 		return this.http.put(`${this.baseUrl}/api/users/${updatedUser.id}`, updatedUser);		
 	}
-
-  constructor(private http: Http) { }
 
 }

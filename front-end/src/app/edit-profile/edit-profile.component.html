@@ -1,8 +1,46 @@
 
-<form>
 
-<label for="name">Playstation Network Name:</label>
-        <input type="text" id="psnName" name="psnName">
+<!-- <form>
+
+<div id ="formdiv">
+	<form id ="handles">
+			<h5 id="xbox">Xbox Live Gamertag:</h5>
+			<input type="text" id="xboxName" name="xboxName">
+
+			<h5 id="xbox">Xbox Live Gamertag:</h5>
+			<input type="text" id="xboxName" name="xboxName">
+
+		
+			<h5 id ="steam">Steam ID:</h5>
+			<input type="text" id="steamName" name="steamName">
+
+			<h5 id="psn">PSN Online ID:</h5>
+			<input type="text" id="psnName" name="psnName">
+
+		
+			<h5 id ="bnet">Battle.net ID:</h5>
+			<input type="text" id="bnetName" name="bnetName">
+
+
+
+
         <button type="submit" id="submit">Submit</button>
 
-</form>
+	</form>
+</div> -->
+
+<form (ngSubmit)="updateUser(updatedUser)">
+        <label for="title">Xbox Live Gamertag:</label>
+        <input name="title" [(ngModel)]="updatedUser.title">
+      
+        <label for="duration">Steam ID:</label>
+        <input name="duration" [(ngModel)]="updatedUser.duration">
+      
+        <label for="date_of_release">PSN Online ID:</label>
+        <input name="date_of_release" [(ngModel)]="updatedUser.date_of_release">
+      
+        <label for="album_title">Battle.net ID:</label>
+        <input name="album_title" [(ngModel)]="updatedUser.album_title">
+      
+        <input type="submit" value="Update">
+      </form>
