@@ -8,7 +8,7 @@ const Users = db.models.Users;
 
 function index(req, res) {
     Users.findAll().then(function(users) {
-			// console.log(users);
+			console.log(users);
       res.json(users);
     });
   }
