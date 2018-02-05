@@ -5,10 +5,9 @@
 
 <!-- LOGIN FORM -->
 <div class="formdiv">
-<form>
-<input id="email" type="text" placeholder="Email">
-<input id ="password" type="password" placeholder="Password">
-<button type="submit" id="submit">LOGIN</button>
-</form>  
-<div id="footer"><p>CREATE ACCOUNT</p></div>
+<input id="email" type="text" placeholder="Email" required [(ngModel)]="email" name="email">
+<input id ="password" type="password" placeholder="Password" required [(ngModel)]="password" name="password">
+<button  class="submit" (click)="login()">LOGIN</button>
+<button  class="submit" (click)="register()">REGISTER</button>
 </div>
+

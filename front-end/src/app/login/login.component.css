@@ -52,10 +52,10 @@
 	border: 2px solid black;
 
 }
+/*
 
 
-
-#submit {
+.submit {
 	letter-spacing: 4px;
 	font-family: 'PT Mono', monospace;
 	font-weight: bold;
@@ -63,13 +63,13 @@
 	margin-left: 25%;
 	margin-top: 85%;
 	height: 7%;
-	position: absolute;
+	position: relative;
 	width: 50%;
 	border: 2px solid black;
 	background: #3FC6B8;
 	background: linear-gradient(#C5EDE9, #3FC6B8);
 	color: black;
-}
+}*/
 
 #footer {
 	letter-spacing: 3px;
