@@ -15,7 +15,7 @@ export class AuthService {
   login(email: string, password: string) {
     this.afAuth.auth.signInWithEmailAndPassword(email, password)
     .then(value => {
-      console.log('Nice, it worked!', value.uid);
+      console.log('Nice, it worked!', value.email);
       this.router.navigateByUrl('/profile');
     })
     .catch(err => {
@@ -26,7 +26,7 @@ export class AuthService {
   emailSignup(email: string, password: string) {
     this.afAuth.auth.createUserWithEmailAndPassword(email, password)
     .then(value => {
-     console.log('Success', value.uid);
+     console.log('Success', value.email);
      this.router.navigateByUrl('/profile');
     })
     .catch(error => {
