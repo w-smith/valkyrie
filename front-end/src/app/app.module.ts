@@ -14,6 +14,7 @@ import { AngularFireAuthModule } from 'angularfire2/auth';
 
 import { AppRoutingModule } from './app-routing.module';
 import { EmailComponent } from './email/email.component';
+import { CameraComponent } from './camera/camera.component';
 
 const firebaseConfig = {
     apiKey: "AIzaSyBNSycBUmjHmr76tMGF3oB8gJgcyQy5KDE",
@@ -32,7 +33,8 @@ const firebaseConfig = {
     ProfileComponent,
     SearchComponent,
     ProfileComponent,
-    EmailComponent
+    EmailComponent,
+    CameraComponent
   ],
   imports: [
     BrowserModule,
