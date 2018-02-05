@@ -5,6 +5,8 @@ import * as firebase from 'firebase/app';
 import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/switchMap';
 
+
+
 @Injectable()
 export class AuthService {
 
@@ -16,7 +18,7 @@ export class AuthService {
     this.afAuth.auth.signInWithEmailAndPassword(email, password)
     .then(value => {
       console.log('Nice, it worked!', value.uid);
-      this.router.navigateByUrl('/profile');
+      this.router.navigateByUrl('/' + value.uid + '/profile');
     })
     .catch(err => {
       console.log('Something went wrong: ', err.message);
@@ -27,18 +29,20 @@ export class AuthService {
     this.afAuth.auth.createUserWithEmailAndPassword(email, password)
     .then(value => {
      console.log('Success', value.uid);
-     this.router.navigateByUrl('/profile');
+     this.router.navigateByUrl('/' + value.uid + '/profile');
     })
     .catch(error => {
       console.log('Something went wrong: ', error);
     });
   }
 
-  logout() {
+    logout() {
     this.afAuth.auth.signOut().then(() => {
       this.router.navigate(['/']);
     });
   }
+
+
 
   private oAuthLogin(provider) {
     return this.afAuth.auth.signInWithPopup(provider);
