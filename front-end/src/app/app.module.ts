@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { AuthService } from './auth.service';
 import { AppComponent } from './app.component';
-import { SignupComponent } from './signup/signup.component';
 import { LoginComponent } from './login/login.component';
 import { ProfileComponent } from './profile/profile.component';
 import { SearchComponent } from './search/search.component';
@@ -29,7 +28,6 @@ const firebaseConfig = {
 @NgModule({
   declarations: [
     AppComponent,
-    SignupComponent,
     LoginComponent,
     ProfileComponent,
     SearchComponent,

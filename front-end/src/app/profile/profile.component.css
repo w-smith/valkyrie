@@ -1,3 +1,13 @@
+
+
+#logodiv {
+	position: absolute;
+}
+
+#title {
+	position: absolute;	
+}
+
 #profileimage {
 	text-align: center;
 	margin-top: 5%;
