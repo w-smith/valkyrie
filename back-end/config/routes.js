@@ -14,7 +14,7 @@ router.get('/api/users', usersController.index);
 router.post('/api/users', usersController.create);
 
 // show
-router.get('/api/users/:id', usersController.show);
+// router.get('/api/users/:id', usersController.show);
 
 // update
 router.put('/api/users/:id', usersController.update);
