@@ -1,1 +1,80 @@
 
+
+#headerDiv {
+	height: 30%;
+	width: 100%;
+
+}
+
+#input {
+	margin-top: 30%;
+	margin-left: 5%;
+	width: 60%;
+	height: 8%;
+	font-size: 200%;
+	border: 0;
+	padding: 0;
+	position: absolute;
+	border: 3px solid black;
+}
+
+#btn {
+	margin-top: 30%;
+	margin-left: 70%;
+	width: 20%;
+	height: 8%;
+	font-size: 200%;
+	position: absolute;
+	padding: 0;
+	border: 0;
+	border: 3px solid black;
+
+
+}
+
+
+#gameDiv {
+	width: 90%;
+	margin-left: 5%;
+	padding-top: 30px;
+	background-color:;
+	display: block;
+	font-size: 500%;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#image {
+	display: block;
+
+}
+
+#gameTitle {
+	width: 100%;
+	margin-top: 5%;
+	display: block;
+}
+
+#platformDiv {
+	margin-left: 15%;
+	font-size: 300%;
+	background: white;
+	margin-top: 5px;
+	display: block;
+	border: 2px solid black;
+	width: 70%;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#addedDiv {
+	margin-left: 15%;
+	font-size: 300%;
+	background: #ccffcc;
+	margin-top: 5px;
+	display: block;
+	border: 2px solid black;
+	width: 70%;
+	text-align: center;
+	text-transform: uppercase;
+}

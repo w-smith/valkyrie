@@ -12,9 +12,11 @@ export class SearchComponent implements OnInit {
 
 
 
-constructor() { }
-ngOnInit() { }
+constructor() { 
 
+
+}
+ngOnInit() { }
 
 api() {
 	// console.log($('#input').val())
@@ -36,28 +38,54 @@ api() {
 			//below generates the image div
 			var newImg = document.createElement('img'); // makes a new image
 			newImg.setAttribute("src", img);   // sets the source as the variable above
-			
 			//below appends those fancy new divs onto the body
 			document.body.appendChild(newImg);
 			document.body.appendChild(newGameDiv);
-			// below runs another loop thorough the platforms array
-			for (var q = 0; q < ourData.results[i].platforms.length; q++) {
-					var platformDiv = document.createElement('div'); 	// makes a unique div
-					platformDiv.setAttribute("id", "platformDiv");   // sets the id as platformDiv
-					platformDiv.onclick = function() { // adds an event listener
-						this.setAttribute("id", "addedDiv"); //onclick changes the id to 'addedDiv'
-					}; 
-					var platform = ourData.results[i].platforms[q].name; 
-					platformDiv.innerHTML += platform; //adds the platform name into a new div
-					document.body.appendChild(platformDiv); //places it on the page
-					//this repeats for as many platforms as necessary
-    			}
-    		}
-    		console.log(ourData);
+			//image style
+			newImg.style.display = 'block'
+			newImg.style.width = '50%'
+			newImg.style.margin = '0 auto'
+			newImg.style.border = '3px solid white'
+			//game div style
+			newGameDiv.style.width = '90%'
+			newGameDiv.style.marginLeft = '5%'
+			newGameDiv.style.paddingBottom = '12%'
+			newGameDiv.style.display = 'block'
+			newGameDiv.style.fontSize = '200%'
+			newGameDiv.style.textAlign = 'center'
+			newGameDiv.style.textTransform = 'uppercase'
+			newGameDiv.style.color = 'white'
+		}
+    		
    		};
 			ourRequest.send(); //don't remember what this does, but it's important
 };
 
+
+
+
+
 }
 
 
+<<<<<<< HEAD
+
+
+
+			// below runs another loop thorough the platforms array
+			// for (var q = 0; q < ourData.results[i].platforms.length; q++) {
+			// 		var platformDiv = document.createElement('div'); 	// makes a unique div
+			// 		platformDiv.setAttribute("id", "platformDiv");   // sets the id as platformDiv
+			// 		platformDiv.onclick = function() { // adds an event listener
+			// 			this.setAttribute("id", "addedDiv"); //onclick changes the id to 'addedDiv'
+			// 		}; 
+			// 		var platform = ourData.results[i].platforms[q].name; 
+			// 		platformDiv.innerHTML += platform; //adds the platform name into a new div
+			// 		document.body.appendChild(platformDiv); //places it on the page
+					//this repeats for as many platforms as necessary
+
+
+
+
+=======
+>>>>>>> 4ac58ca7767a9d89bef865ce56fc5f98fd894c0c
