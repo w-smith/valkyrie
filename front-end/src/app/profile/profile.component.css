@@ -1,16 +1,15 @@
-#imagediv {
-	width: 150px;
-	margin: 0 auto;
+#profileimage {
+	text-align: center;
 	margin-top: 5%;
 }
 
-#profileimage {
-	width: 100%;
-}
-
-#username {
-	width: 100%;
+#email {
+	font-size: 130%;
+	font-weight: bold;
+	margin-top: 5%;
 	text-align: center;
-	margin-bottom: 8%;
 }
 
+#profileimage {
+	display: inline;
+}

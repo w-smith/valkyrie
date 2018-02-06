@@ -12,7 +12,10 @@ export class CameraComponent implements OnInit {
 
 
 
-  constructor() { }
+  constructor() {
+
+
+   }
 
   ngOnInit() {
 }
