@@ -17,6 +17,7 @@ import { EmailComponent } from './email/email.component';
 import { CameraComponent } from './camera/camera.component';
 import { EditProfileComponent } from './edit-profile/edit-profile.component';
 import { UsersService } from './services/edit-profile.service';
+import { NewProfileComponent } from './new-profile/new-profile.component';
 
 const firebaseConfig = {
     apiKey: "AIzaSyBNSycBUmjHmr76tMGF3oB8gJgcyQy5KDE",
@@ -37,7 +38,8 @@ const firebaseConfig = {
     ProfileComponent,
     EmailComponent,
     CameraComponent,
-    EditProfileComponent
+    EditProfileComponent,
+    NewProfileComponent
   ],
   imports: [
     BrowserModule,

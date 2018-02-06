@@ -10,7 +10,7 @@ import { ActivatedRoute, Router }   from '@angular/router';
 })
 export class EditProfileComponent implements OnInit {
 
-  updatedUser = {};
+  updatedUser = <any>{};
 
   constructor(
     private route : ActivatedRoute,
@@ -34,8 +34,8 @@ export class EditProfileComponent implements OnInit {
     
     this.usersService.updateUser(updatedUser)
     .subscribe(response => {
-      console.log('im in the response');
-      console.log(response.json());
+      // console.log('im in the response');
+      // console.log(response.json());
       let user = response.json();
       this.router.navigate(["/users/" + user.id]);
     });  

@@ -1,0 +1,19 @@
+<form (ngSubmit)="saveUser(newUser)">
+  <label for="email">Email:</label>
+  <input name="email" [(ngModel)]="newUser.email">
+
+  <label for="xbox">Xbox Live Gamertag:</label>
+  <input name="xbox" [(ngModel)]="newUser.xbox">
+
+  <label for="steam">Steam ID:</label>
+  <input name="steam" [(ngModel)]="newUser.steam">
+
+  <label for="psn">PSN Online ID:</label>
+  <input name="psn" [(ngModel)]="newUser.psn">
+
+  <label for="bnet">Battle.net ID:</label>
+  <input name="bnet" [(ngModel)]="newUser.bnet">
+
+  <input type="submit" value="Create">
+</form>
+
