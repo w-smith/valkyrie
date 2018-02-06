@@ -30,7 +30,7 @@ export class NewProfileComponent implements OnInit {
       console.log(response.json());
       let user = response.json();
       console.log('It is working');
-      this.router.navigate(["/profile/" + user.id]);
+      this.router.navigate([user.id + "/profile/"]);
     })
   }
 
