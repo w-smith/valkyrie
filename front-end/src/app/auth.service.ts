@@ -18,7 +18,7 @@ export class AuthService {
     this.afAuth.auth.signInWithEmailAndPassword(email, password)
     .then(value => {
 
-      console.log('Nice, it worked!', value.email);
+      console.log("You're doing it, Peter!", value.email);
       this.router.navigateByUrl('/profile');
 
       console.log('Nice, it worked!', value.uid);
@@ -43,6 +43,7 @@ export class AuthService {
     })
     .catch(error => {
       console.log('Something went wrong: ', error);
+      alert("Email already in use. Try logging in.")
     });
   }
 
