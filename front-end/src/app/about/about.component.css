@@ -1,0 +1,30 @@
+
+
+#aboutus {
+
+	text-align: center;
+	color: white;
+	margin: auto 10vw;
+	
+
+}
+
+
+#hardstyle {
+    display: block;
+    margin-top: 15vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60vw;
+    border-radius: 50%;
+    -webkit-animation: rotation 25s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
