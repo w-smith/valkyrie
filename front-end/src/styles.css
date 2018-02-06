@@ -2,8 +2,8 @@
 body {
 	
 	height: 100vh;
-	/*background-image: url('gradient.png');*/
-	background-color: black;
+	background-image: url('gradient.png');
+	/*background-color: black;*/
 	background-repeat: no-repeat;
     background-attachment: fixed;
 }
