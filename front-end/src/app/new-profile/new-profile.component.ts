@@ -29,7 +29,8 @@ export class NewProfileComponent implements OnInit {
         .subscribe(response => {
       console.log(response.json());
       let user = response.json();
-      this.router.navigate(["/users/" + user.id]);
+      console.log('It is working');
+      this.router.navigate([user.id + "/profile/"]);
     })
   }
 

@@ -8,7 +8,6 @@ const Users = db.models.Users;
 
 function index(req, res) {
     Users.findAll().then(function(users) {
-			console.log(users);
       res.json(users);
     });
   }
@@ -18,6 +17,14 @@ function index(req, res) {
 	  if(!user) res.send("User not saved");
 	  res.json(user);
 	});
+  }
+
+  function show(req, res) {
+    Users.findById(req.params.id)
+    .then(function(user){
+      if(!user) res.send("User not found");
+      else res.json(user);
+    });	
   }
   
   function update(req, res) {
@@ -43,7 +50,7 @@ function index(req, res) {
   }
   
   module.exports.index = index;
-  // module.exports.show = show;
+  module.exports.show = show;
   module.exports.create = create;
   module.exports.update = update;
   module.exports.destroy = destroy;

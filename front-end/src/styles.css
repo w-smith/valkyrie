@@ -1,15 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 body {
-	width: 100%;
+	
 	height: 100vh;
-	position: absolute;
-	background: -moz-radial-gradient(center, ellipse cover, #44DBCC 0%, #000000 100%); /* ff3.6+ */
-	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #44DBCC), color-stop(100%, #000000)); /* safari4+,chrome */
-	background: -webkit-radial-gradient(center, ellipse cover, #44DBCC 0%, #000000 100%); /* safari5.1+,chrome10+ */
-	background: -o-radial-gradient(center, ellipse cover, #44DBCC 0%, #000000 100%); /* opera 11.10+ */
-	background: -ms-radial-gradient(center, ellipse cover, #44DBCC 0%, #000000 100%); /* ie10+ */
-	background: radial-gradient(ellipse at center, #44DBCC 0%, #000000 100%); /* w3c */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44DBCC', endColorstr='#000000',GradientType=1 ); /* ie6-9 */
+	background-image: url('gradient.png');
+	/*background-color: black;*/
 	background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -47,3 +41,32 @@ body {
 	bottom: 0; 
 }
 
+
+
+/* MEDIA QUERIES TO TELL YOU ONLY USE THE APP ON MOBILE */
+@media (min-width:600px) {
+	body {
+		background-image: url('desktopquery.png');
+		background-size: contain;
+		background-color: black;
+		background-position: center;
+		z-index: 20;
+	}
+	#email,#password,#logodiv,#register,#login,#footer,#title {
+		opacity: 0;
+	} 
+}
+
+@media (min-width:900px) {
+	body {
+		background-image: url('desktopquery.png');
+		background-size: 70%;
+		background-color: #25766E;
+		background-position: center;
+		z-index: 20;
+
+	}
+	#email,#password,#logodiv,#register,#login,#footer,#title {
+		opacity: 0;
+	} 
+}

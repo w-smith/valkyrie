@@ -1,17 +1,4 @@
 
-body {
-	width: 100%;
-	position: absolute;
-	background: -moz-radial-gradient(center, ellipse cover, #44DBCC 0%, #000000 100%); /* ff3.6+ */
-	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #44DBCC), color-stop(100%, #000000)); /* safari4+,chrome */
-	background: -webkit-radial-gradient(center, ellipse cover, #44DBCC 0%, #000000 100%); /* safari5.1+,chrome10+ */
-	background: -o-radial-gradient(center, ellipse cover, #44DBCC 0%, #000000 100%); /* opera 11.10+ */
-	background: -ms-radial-gradient(center, ellipse cover, #44DBCC 0%, #000000 100%); /* ie10+ */
-	background: radial-gradient(ellipse at center, #44DBCC 0%, #000000 100%); /* w3c */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44DBCC', endColorstr='#000000',GradientType=1 ); /* ie6-9 */
-/*	background-repeat: no-repeat;
-    background-attachment: fixed;*/
-}
 
 #top, #bottom, #left, #right {
 	background: #25766E;

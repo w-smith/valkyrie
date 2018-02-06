@@ -3,10 +3,6 @@ const router = express.Router();
 const usersController = require('../controllers/users.js');
 const gamesController = require('../controllers/games.js');
 
-router.get('/', (req, res) => {
-    res.send('Use api/index');
-});
-
 // index
 router.get('/api/users', usersController.index);
 
