@@ -1,14 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 body {
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6bc4ba+0,008c79+61,008c79+61,003d34+100 */
-background-image: rgb(107,196,186); /* Old browsers */
-background-image: -moz-radial-gradient(center, ellipse cover, rgba(107,196,186,1) 0%, rgba(0,140,121,1) 61%, rgba(0,140,121,1) 61%, rgba(0,61,52,1) 100%); /* FF3.6-15 */
-background-image: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(107,196,186,1)), color-stop(61%,rgba(0,140,121,1)), color-stop(61%,rgba(0,140,121,1)), color-stop(100%,rgba(0,61,52,1))); /* Chrome4-9,Safari4-5 */
-background-image: -webkit-radial-gradient(center, ellipse cover, rgba(107,196,186,1) 0%,rgba(0,140,121,1) 61%,rgba(0,140,121,1) 61%,rgba(0,61,52,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background-image: -o-radial-gradient(center, ellipse cover, rgba(107,196,186,1) 0%,rgba(0,140,121,1) 61%,rgba(0,140,121,1) 61%,rgba(0,61,52,1) 100%); /* Opera 12+ */
-background-image: -ms-radial-gradient(center, ellipse cover, rgba(107,196,186,1) 0%,rgba(0,140,121,1) 61%,rgba(0,140,121,1) 61%,rgba(0,61,52,1) 100%); /* IE10 preview */
-background-image: radial-gradient(ellipse at center, rgba(107,196,186,1) 0%,rgba(0,140,121,1) 61%,rgba(0,140,121,1) 61%,rgba(0,61,52,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6bc4ba', endColorstr='#003d34',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	
+	height: 100vh;
+	background-image: url('gradient.png');
 	background-repeat: no-repeat;
     background-attachment: fixed;
 }
