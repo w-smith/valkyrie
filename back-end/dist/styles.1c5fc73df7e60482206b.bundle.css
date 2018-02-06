@@ -1,0 +1,2 @@
+/* You can add global styles to this file, and also import other style files */body{height:100vh;
+	/*background-image: url('gradient.png');*/background-color:#000;background-repeat:no-repeat;background-attachment:fixed}#bottom,#left,#right,#top{background:#25766e;position:fixed}#left,#right{top:0;bottom:0;width:7px}#left{left:0}#right{right:0}#bottom,#top{left:0;right:0;height:7px}#top{top:0}#bottom{bottom:0}
