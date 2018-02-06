@@ -2,8 +2,8 @@
 body {
 	
 	height: 100vh;
-	background-image: url('gradient.png');
-	/*background-color: black;*/
+	/*background-image: url('gradient.png');*/
+	background-color: black;
 	background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -67,6 +67,6 @@ body {
 
 	}
 	#email,#password,#logodiv,#register,#login,#footer,#title {
-		opacity: 0.1;
+		opacity: 0.11;
 	} 
 }
