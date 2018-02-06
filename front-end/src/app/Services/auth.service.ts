@@ -19,7 +19,10 @@ export class AuthService {
     .then(value => {
 
       console.log('Nice, it worked!', value.email);
-      this.router.navigateByUrl('/profile/' + value.uid);
+      this.router.navigateByUrl('/profile');
+
+      console.log('Nice, it worked!', value.uid);
+      this.router.navigateByUrl('/' + value.uid + '/profile');
 
     })
     .catch(err => {
@@ -31,8 +34,11 @@ export class AuthService {
     this.afAuth.auth.createUserWithEmailAndPassword(email, password)
     .then(value => {
 
+     console.log('Success', value.email);
+     this.router.navigateByUrl('/profile');
+
      console.log('Success', value.uid);
-     this.router.navigateByUrl('/profile/' + value.uid);
+     this.router.navigateByUrl('/' + value.uid + '/profile');
 
     })
     .catch(error => {

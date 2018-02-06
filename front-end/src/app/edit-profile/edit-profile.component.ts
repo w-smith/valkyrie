@@ -37,7 +37,7 @@ export class EditProfileComponent implements OnInit {
       console.log('im in the response');
       console.log(response.json());
       let user = response.json();
-      this.router.navigate("/users/" + this.updatedUser.id);
+      this.router.navigate(["/users/" + user.id]);
     });  
   }
 

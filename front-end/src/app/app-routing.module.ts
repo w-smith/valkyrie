@@ -14,11 +14,11 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'email-login', component: EmailComponent },
   { path: 'signup', component: SignupComponent },
-
-  // { path: 'profile', component: ProfileComponent },
-  { path: 'edit-profile', component: EditProfileComponent},
+  { path: ':id/profile', component: ProfileComponent },
+  { path: 'profile', component: ProfileComponent },
+  { path: 'edit-profile', component: EditProfileComponent}
   
-  { path: 'profile/:id', component: ProfileComponent }
+ 
 
 
 ];
