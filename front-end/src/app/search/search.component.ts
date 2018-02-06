@@ -68,7 +68,7 @@ api() {
 }
 
 
-<<<<<<< HEAD
+
 
 
 
@@ -85,7 +85,3 @@ api() {
 					//this repeats for as many platforms as necessary
 
 
-
-
-=======
->>>>>>> 4ac58ca7767a9d89bef865ce56fc5f98fd894c0c

@@ -1,15 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
 body {
-	width: 100%;
-	height: 100vh;
-	position: absolute;
-	background: -moz-radial-gradient(center, ellipse cover, #44DBCC 0%, #000000 100%); /* ff3.6+ */
-	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #44DBCC), color-stop(100%, #000000)); /* safari4+,chrome */
-	background: -webkit-radial-gradient(center, ellipse cover, #44DBCC 0%, #000000 100%); /* safari5.1+,chrome10+ */
-	background: -o-radial-gradient(center, ellipse cover, #44DBCC 0%, #000000 100%); /* opera 11.10+ */
-	background: -ms-radial-gradient(center, ellipse cover, #44DBCC 0%, #000000 100%); /* ie10+ */
-	background: radial-gradient(ellipse at center, #44DBCC 0%, #000000 100%); /* w3c */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44DBCC', endColorstr='#000000',GradientType=1 ); /* ie6-9 */
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6bc4ba+0,008c79+61,008c79+61,003d34+100 */
+background: rgb(107,196,186); /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover, rgba(107,196,186,1) 0%, rgba(0,140,121,1) 61%, rgba(0,140,121,1) 61%, rgba(0,61,52,1) 100%); /* FF3.6-15 */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(107,196,186,1)), color-stop(61%,rgba(0,140,121,1)), color-stop(61%,rgba(0,140,121,1)), color-stop(100%,rgba(0,61,52,1))); /* Chrome4-9,Safari4-5 */
+background: -webkit-radial-gradient(center, ellipse cover, rgba(107,196,186,1) 0%,rgba(0,140,121,1) 61%,rgba(0,140,121,1) 61%,rgba(0,61,52,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: -o-radial-gradient(center, ellipse cover, rgba(107,196,186,1) 0%,rgba(0,140,121,1) 61%,rgba(0,140,121,1) 61%,rgba(0,61,52,1) 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover, rgba(107,196,186,1) 0%,rgba(0,140,121,1) 61%,rgba(0,140,121,1) 61%,rgba(0,61,52,1) 100%); /* IE10 preview */
+background: radial-gradient(ellipse at center, rgba(107,196,186,1) 0%,rgba(0,140,121,1) 61%,rgba(0,140,121,1) 61%,rgba(0,61,52,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6bc4ba', endColorstr='#003d34',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 	background-repeat: no-repeat;
     background-attachment: fixed;
 }
