@@ -1,16 +1,25 @@
-#imagediv {
-	width: 150px;
-	margin: 0 auto;
-	margin-top: 5%;
+
+
+#logodiv {
+	position: absolute;
+}
+
+#title {
+	position: absolute;	
 }
 
 #profileimage {
-	width: 100%;
-}
-
-#username {
-	width: 100%;
 	text-align: center;
-	margin-bottom: 8%;
+	margin-top: 5%;
 }
 
+#email {
+	font-size: 130%;
+	font-weight: bold;
+	margin-top: 5%;
+	text-align: center;
+}
+
+#profileimage {
+	display: inline;
+}

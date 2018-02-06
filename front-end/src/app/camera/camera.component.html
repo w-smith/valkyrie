@@ -1,3 +1,17 @@
-<p>
-  camera works!
-</p>
+<script src="https://static.filestackapi.com/v3/filestack.js"></script>
+<script type="text/javascript">
+  var fsClient = filestack.init('AbZ3BxYSsQrWIO0h9EYDsz');
+  function openPicker() {
+    fsClient.pick({
+      fromSources:["local_file_system","url","imagesearch","facebook","instagram","dropbox"],
+      accept:["image/*"],
+      transformations:{
+      crop:true},
+      maxFiles:1,
+      minFiles:1
+    }).then(function(response) {
+      // declare this function to handle response
+      handleFilestack(response);
+    });
+  }
+</script>
