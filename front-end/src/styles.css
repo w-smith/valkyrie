@@ -2,8 +2,8 @@
 body {
 	
 	height: 100vh;
-	/*background-image: url('gradient.png');*/
-	background-color: black;
+	background-image: url('gradient.png');
+	/*background-color: black;*/
 	background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -41,3 +41,32 @@ body {
 	bottom: 0; 
 }
 
+
+
+/* MEDIA QUERIES TO TELL YOU ONLY USE THE APP ON MOBILE */
+@media (min-width:600px) {
+	body {
+		background-image: url('desktopquery.png');
+		background-size: contain;
+		background-color: black;
+		background-position: center;
+		z-index: 20;
+	}
+	#email,#password,#logodiv,#register,#login,#footer,#title {
+		opacity: 0;
+	} 
+}
+
+@media (min-width:900px) {
+	body {
+		background-image: url('desktopquery.png');
+		background-size: 70%;
+		background-color: #25766E;
+		background-position: center;
+		z-index: 20;
+
+	}
+	#email,#password,#logodiv,#register,#login,#footer,#title {
+		opacity: 0;
+	} 
+}
