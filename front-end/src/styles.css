@@ -67,6 +67,6 @@ body {
 
 	}
 	#email,#password,#logodiv,#register,#login,#footer,#title {
-		opacity: 0;
+		opacity: 0.1;
 	} 
 }
