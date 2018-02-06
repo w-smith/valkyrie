@@ -31,7 +31,7 @@ const userCreate = [
     },
     {
         name: 'Will Smith',
-        username: 'HellenSteller'
+        username: 'HelenStellar'
     }
 ]
 
