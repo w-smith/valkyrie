@@ -1,3 +1,0 @@
-/* You can add global styles to this file, and also import other style files */body{height:100vh;background:-webkit-gradient(linear,left top,left bottom,from(#000),to(#25766e));background:linear-gradient(#000,#25766e)}
-/*SCROLL LOCK*/body,html{margin:0;height:100%;overflow:hidden}
-/*THIS IS THE BORDER AROUND THE PAGE*/#bottom,#left,#right,#top{background:#25766e;position:fixed}#left,#right{top:0;bottom:0;width:7px}#left{left:0}#right{right:0}#bottom,#top{left:0;right:0;height:7px}#top{top:0}#bottom{bottom:0}
