@@ -56,12 +56,12 @@ api() {
     		console.log(ourData);
    		};
 			ourRequest.send(); //don't remember what this does, but it's important
-});
+};
 
 }
 
 
-}
+
 
 
 
