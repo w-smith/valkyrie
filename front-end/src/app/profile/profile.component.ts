@@ -21,6 +21,11 @@ export class ProfileComponent implements OnInit {
     this.authService.logout();
   }
 
+    search() {
+    this.router.navigateByUrl('/search');
+ }
+
+
 }
 
 
