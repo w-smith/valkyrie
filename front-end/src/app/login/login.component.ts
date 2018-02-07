@@ -16,7 +16,8 @@ password : string = ""
 
 
 
-  constructor(private authService: AuthService) { }
+  constructor(private authService: AuthService,
+  	private router: Router) { }
 
 login() {
 	console.log("button clicked");
@@ -29,6 +30,12 @@ register() {
 	this.authService.emailSignup(this.email, this.password) 
 	
 }
+
+  about() {
+    this.router.navigateByUrl('/about');
+ }
+
+
 
   ngOnInit() {}
 

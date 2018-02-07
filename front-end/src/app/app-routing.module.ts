@@ -4,6 +4,7 @@ import { LoginComponent } from './login/login.component';
 import { ProfileComponent } from './profile/profile.component';
 import { SearchComponent } from './search/search.component';
 import { EmailComponent } from './email/email.component';
+import { AboutComponent } from './about/about.component';
 
 import { EditProfileComponent } from './edit-profile/edit-profile.component';
 
@@ -18,7 +19,8 @@ const routes: Routes = [
   { path: 'profile', component: ProfileComponent },
   { path: 'edit-profile', component: EditProfileComponent},
   { path: 'new-profile', component: NewProfileComponent},
-  { path: 'search', component: SearchComponent}
+  { path: 'search', component: SearchComponent},
+  { path: 'about', component: AboutComponent}
  ];
 
 @NgModule({

@@ -29,6 +29,9 @@ export class ProfileComponent implements OnInit {
     this.router.navigateByUrl('/edit-profile');
  }
 
+  about() {
+    this.router.navigateByUrl('/about');
+ }
 
 
 }

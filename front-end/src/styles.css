@@ -55,6 +55,11 @@ body {
 	#email,#password,#logodiv,#register,#login,#footer,#title {
 		opacity: 0;
 	} 
+
+	body, html { 
+    overflow-x: hidden; 
+    overflow-y: auto;
+}
 }
 
 @media (min-width:900px) {
@@ -69,4 +74,9 @@ body {
 	#email,#password,#logodiv,#register,#login,#footer,#title {
 		opacity: 0;
 	} 
+
+	body, html { 
+    overflow-x: hidden; 
+    overflow-y: auto;
+}
 }
