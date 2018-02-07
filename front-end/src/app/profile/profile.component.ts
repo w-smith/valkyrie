@@ -19,11 +19,16 @@ export class ProfileComponent implements OnInit {
 
   signOut() {
     this.authService.logout();
-  }
+ }
 
-    search() {
+  search() {
     this.router.navigateByUrl('/search');
  }
+   
+  edit() {
+    this.router.navigateByUrl('/edit-profile');
+ }
+
 
 
 }

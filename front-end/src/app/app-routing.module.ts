@@ -19,11 +19,7 @@ const routes: Routes = [
   { path: 'edit-profile', component: EditProfileComponent},
   { path: 'new-profile', component: NewProfileComponent},
   { path: 'search', component: SearchComponent}
-  
- 
-
-
-];
+ ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
