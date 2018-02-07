@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 declare var jquery:any;
 declare var $ :any;
+import { AppComponent } from '../app.component';
+import { environment } from '../../environments/environment'
+
 
 @Component({
   selector: 'app-search',
@@ -8,6 +11,7 @@ declare var $ :any;
   styleUrls: ['./search.component.css']
 })
 export class SearchComponent implements OnInit {
+	apikey = environment.apikey
 
 
 
@@ -23,7 +27,7 @@ api() {
 	// console.log($('#input').val())
 	var input = $('#input').val()
 	var ourRequest = new XMLHttpRequest();
-	ourRequest.open('GET','https://www.giantbomb.com/api/search/?api_key=262fc1b64e4ded514bb8daa29c8179c43c774673&format=json&query='+input+'&resources=game'); 
+	ourRequest.open('GET','https://www.giantbomb.com/api/search/?api_key=' + environment.apikey +'&format=json&query='+input+'&resources=game'); 
 		ourRequest.onload = function() {
 		var ourData = JSON.parse(ourRequest.responseText);
 		console.log(ourData);

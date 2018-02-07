@@ -6,6 +6,7 @@ import { SearchComponent } from './search/search.component';
 import { EmailComponent } from './email/email.component';
 import { AboutComponent } from './about/about.component';
 
+
 import { EditProfileComponent } from './edit-profile/edit-profile.component';
 
 import * as firebase from 'firebase/app';
