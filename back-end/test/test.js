@@ -3,7 +3,7 @@ const request = require('request');
 
 
 
-describe('A basic test', function () {
+describe('API functionality', function () {
     it('should pass when everything is okay', function () {
         expect(true).to.be.true;
     });
