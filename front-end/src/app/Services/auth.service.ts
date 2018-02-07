@@ -9,7 +9,6 @@ import 'rxjs/add/operator/switchMap';
 
 @Injectable()
 export class AuthService {
-
   constructor(
     private afAuth: AngularFireAuth,
     private router: Router) {}
@@ -29,6 +28,7 @@ export class AuthService {
       console.log('Something went wrong: ', err.message);
     });
   }
+
 
   emailSignup(email: string, password: string) {
     this.afAuth.auth.createUserWithEmailAndPassword(email, password)
