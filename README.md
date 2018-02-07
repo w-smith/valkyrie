@@ -1,5 +1,5 @@
 <p align="center">
-![alt text](https://i.imgur.com/AJg0onw.png)
+<img src="https://i.imgur.com/AJg0onw.png">
 ### Contributors: 
 **RJ McBain**: [GitHub](https://github.com/rjmcbain)
 
