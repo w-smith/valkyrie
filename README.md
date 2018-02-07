@@ -18,5 +18,6 @@ By utilizing the Internet Games Database (https://www.igdb.com/api), Valkyrie wi
 
 ### Other Resources
 (http://www.psequel.com/) PSequel provides a clean and simple interface for you to perform common PostgreSQL tasks quickly.
+
 (https://firebase.google.com/) Used for user authorization, Firebase gives you functionality like analytics, databases, messaging and crash reporting so you can move quickly and focus on your users.
 
