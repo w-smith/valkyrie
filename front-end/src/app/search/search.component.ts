@@ -23,7 +23,7 @@ api() {
 	// console.log($('#input').val())
 	var input = $('#input').val()
 	var ourRequest = new XMLHttpRequest();
-	ourRequest.open('GET','http://localhost:9292/valkyrieapp.herokuapp.com/https://www.giantbomb.com/api/search/?api_key=262fc1b64e4ded514bb8daa29c8179c43c774673&format=json&query='+input+'&resources=game'); 
+	ourRequest.open('GET','http://localhost:1337/valkyrieapp.herokuapp.com/https://www.giantbomb.com/api/search/?api_key=262fc1b64e4ded514bb8daa29c8179c43c774673&format=json&query='+input+'&resources=game'); 
 		ourRequest.onload = function() {
 		var ourData = JSON.parse(ourRequest.responseText);
 		console.log(ourData);
