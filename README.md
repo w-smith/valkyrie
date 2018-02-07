@@ -8,6 +8,7 @@
 
 **Matt Steffey**: [GitHub](https://github.com/mattsteffey)
 
+Live App Heroku Link: https://valkyrieapp.herokuapp.com/
 Trello: https://trello.com/b/kvynyDCz/
 
 ### Summary
@@ -21,3 +22,6 @@ By utilizing the Internet Games Database (https://www.igdb.com/api), Valkyrie wi
 
 (https://firebase.google.com/) Used for user authorization, Firebase gives you functionality like analytics, databases, messaging and crash reporting.
 
+### Wireframes
+![alt text](https://i.imgur.com/TPELAGQ.png)
+![alt text](https://i.imgur.com/WOIl3gx.png)
