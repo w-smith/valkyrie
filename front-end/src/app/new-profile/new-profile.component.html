@@ -1,29 +1,31 @@
-<form class="color" (ngSubmit)="saveUser(newUser)">
-  <label for="email">Email:</label>
-  <input name="email" [(ngModel)]="newUser.email">
+<div>
+  <form class="spacing" (ngSubmit)="saveUser(newUser)">
+    <br>
+    <label for="email">Email:</label>
+    <input name="email" [(ngModel)]="newUser.email">
 
-<br>
+  <br>
 
-  <label for="xbox">Xbox Live Gamertag:</label>
-  <input name="xbox" [(ngModel)]="newUser.xbox">
+    <label for="xbox">Xbox Live Gamertag:</label>
+    <input name="xbox" [(ngModel)]="newUser.xbox">
 
-<br>
+  <br>
 
-  <label for="steam">Steam ID:</label>
-  <input name="steam" [(ngModel)]="newUser.steam">
+    <label for="steam">Steam ID:</label>
+    <input name="steam" [(ngModel)]="newUser.steam">
 
-<br>
+  <br>
 
-  <label for="psn">PSN Online ID:</label>
-  <input name="psn" [(ngModel)]="newUser.psn">
+    <label for="psn">PSN Online ID:</label>
+    <input name="psn" [(ngModel)]="newUser.psn">
 
-<br>
+  <br>
 
-  <label for="bnet">Battle.net ID:</label>
-  <input name="bnet" [(ngModel)]="newUser.bnet">
+    <label for="bnet">Battle.net ID:</label>
+    <input name="bnet" [(ngModel)]="newUser.bnet">
 
-<br>
+  <br>
 
-  <input class="button" type="submit" value="Create">
-</form>
-
+    <input class="button" type="submit" value="Create">
+  </form>
+</div>
