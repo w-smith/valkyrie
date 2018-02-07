@@ -13,8 +13,6 @@ export class ProfileComponent implements OnInit {
   constructor(public authService: AuthService,
   				private router: Router) { }
 
-  	edit() {
-	this.router.navigateByUrl('/edit-profile');}
 
   ngOnInit() {
 	}
