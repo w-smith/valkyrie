@@ -1,4 +1,4 @@
-
+<p align="center">
 ![alt text](https://i.imgur.com/AJg0onw.png)
 ### Contributors: 
 **RJ McBain**: [GitHub](https://github.com/rjmcbain)
@@ -6,6 +6,7 @@
 **Will Smith**: [GitHub](https://github.com/w-smith)
 
 **Matt Steffey**: [GitHub](https://github.com/mattsteffey)
+</p>
 
 
 Trello: https://trello.com/b/kvynyDCz/
