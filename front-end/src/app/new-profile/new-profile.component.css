@@ -1,4 +1,11 @@
-.color {
-    /* color: white; */
+div {
+    display: block;
+    text-align: left;
     margin-left: 25px;
+}
+
+form {
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 40px;
 }
