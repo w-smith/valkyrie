@@ -9,6 +9,7 @@
 **Matt Steffey**: [GitHub](https://github.com/mattsteffey)
 
 Live App Heroku Link: https://valkyrieapp.herokuapp.com/
+
 Trello: https://trello.com/b/kvynyDCz/
 
 ## Summary
