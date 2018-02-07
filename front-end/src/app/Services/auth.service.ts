@@ -24,10 +24,14 @@ export class AuthService {
       this.router.navigateByUrl('/' + value.uid + '/profile');
 
     })
+    
     .catch(err => {
       console.log('Something went wrong: ', err.message);
     });
   }
+
+
+
 
 
   emailSignup(email: string, password: string) {
@@ -47,11 +51,12 @@ export class AuthService {
     });
   }
 
-    logout() {
+  logout() {
     this.afAuth.auth.signOut().then(() => {
       this.router.navigate(['/']);
     });
   }
+
 
 
 
