@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { LoginComponent } from './login/login.component';
 import { ProfileComponent } from './profile/profile.component';
+import { SearchComponent } from './search/search.component';
 import { EmailComponent } from './email/email.component';
 
 import { EditProfileComponent } from './edit-profile/edit-profile.component';
@@ -16,7 +17,8 @@ const routes: Routes = [
   { path: ':id/profile', component: ProfileComponent },
   { path: 'profile', component: ProfileComponent },
   { path: 'edit-profile', component: EditProfileComponent},
-  { path: 'new-profile', component: NewProfileComponent}
+  { path: 'new-profile', component: NewProfileComponent},
+  { path: 'search', component: SearchComponent}
   
  
 

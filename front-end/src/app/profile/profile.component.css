@@ -10,16 +10,107 @@
 
 #profileimage {
 	text-align: center;
-	margin-top: 5%;
+	margin-top: 15%;
+	width: 100%;
 }
 
 #email {
-	font-size: 130%;
+	font-size: 150%;
 	font-weight: bold;
 	margin-top: 5%;
 	text-align: center;
+	letter-spacing: 1px;
 }
 
-#profileimage {
-	display: inline;
+
+#edit {
+	letter-spacing: 4px;
+	font-family: 'PT Mono', monospace;
+	font-weight: bold;
+	font-size: 120%;
+	margin-left: 15%;
+	margin-top: 60%;
+	height: 5%;
+	position: absolute;
+	width: 70%;
+	border: 2px solid black;
+	background: #3FC6B8;
+	background: linear-gradient(#fffbd5, #CDB059);
+	color: black;
+	box-shadow: 
+ 		0 1px 2px #fff, /*bottom external highlight*/
+  		0 -1px 1px #666, /*top external shadow*/ 
+  		inset 0 -1px 1px rgba(0,0,0,0.5), /*bottom internal shadow*/ 
+  		inset 0 1px 1px rgba(255,255,255,0.8); /*top internal highlight*/
 }
+
+#logout {
+	letter-spacing: 4px;
+	font-family: 'PT Mono', monospace;
+	font-weight: bold;
+	font-size: 120%;
+	margin-left: 15%;
+	margin-top: 75%;
+	height: 5%;
+	position: absolute;
+	width: 70%;
+	border: 2px solid black;
+	background: #3FC6B8;
+	background: linear-gradient(#fffbd5, #CDB059);
+	color: black;
+	box-shadow: 
+ 		0 1px 2px #fff, /*bottom external highlight*/
+  		0 -1px 1px #666, /*top external shadow*/ 
+  		inset 0 -1px 1px rgba(0,0,0,0.5), /*bottom internal shadow*/ 
+  		inset 0 1px 1px rgba(255,255,255,0.8); /*top internal highlight*/
+
+}
+
+
+
+#xboxName, #steamName, #psnName, #bnetName {
+	position: absolute;
+	margin-top: 50%;
+	margin-left: 60%;
+	font-size: 125%;
+	font-weight: bold;
+}
+
+#xbox, #steam, #psn, #bnet {
+	position: absolute;
+	margin-left: 5%;
+	font-size: 125%;
+}
+
+#xbox, #xboxName {
+	margin-top: 10%;
+}
+
+#steam, #steamName {
+	margin-top: 20%;
+}
+
+#psn, #psnName {
+	margin-top: 30%;
+}
+
+#bnet, #bnetName {
+	margin-top: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

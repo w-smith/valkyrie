@@ -3,7 +3,7 @@ const db = require('../models');
 const Users = db.models.Users;
 
 // function hello(req, res){					//This is what the
-// 	console.log('hello!!!');							//user sees when
+// 	return('hello');							//user sees when
 // };	
 
 function index(req, res) {
