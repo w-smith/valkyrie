@@ -18,6 +18,7 @@ import { EditProfileComponent } from './edit-profile/edit-profile.component';
 import { UsersService } from './services/edit-profile.service';
 import { NewProfileComponent } from './new-profile/new-profile.component';
 import { AboutComponent } from './about/about.component';
+import { GamesComponent } from './games/games.component';
 
 const firebaseConfig = {
     apiKey: "AIzaSyBNSycBUmjHmr76tMGF3oB8gJgcyQy5KDE",
@@ -39,7 +40,8 @@ const firebaseConfig = {
     CameraComponent,
     EditProfileComponent,
     NewProfileComponent,
-    AboutComponent
+    AboutComponent,
+    GamesComponent
   ],
   imports: [
     BrowserModule,

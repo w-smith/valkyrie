@@ -11,3 +11,5 @@ module.exports = function(sequelize, Sequelize){
     // console.log(usersModel);
     return usersModel;
   };
+
+  
