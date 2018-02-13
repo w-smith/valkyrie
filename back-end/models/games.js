@@ -9,6 +9,6 @@ module.exports = function(sequelize, Sequelize){
     return gamesModel;
   };
 
-  const User = require('./users');
-// using relation from sequalize // 
-User.hasMany(Order, {foreignKey: 'user_id'});
+//   const User = require('./users');
+// // using relation from sequalize // 
+// User.hasMany(Order, {foreignKey: 'user_id'});
