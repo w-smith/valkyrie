@@ -22,6 +22,8 @@ export class GamesComponent implements OnInit {
 
   }
 
+//Creating new game
+
   saveGame(newGame) {
     console.log("saving Game");
     console.log(newGame);
