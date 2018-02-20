@@ -28,7 +28,7 @@ api() {
 	var input = $('#input').val()
 	
 	var ourRequest = new XMLHttpRequest();
-	ourRequest.setRequestHeader("Content-Type", '*');
+	ourRequest.setRequestHeader("Content-Type", 'https://valkyrieapp.herokuapp.com/');
 	ourRequest.open('GET','https://www.giantbomb.com/api/search/?api_key=' + environment.apikey +'&format=json&query='+input+'&resources=game'); 
 		ourRequest.onload = function() {
 		var ourData = JSON.parse(ourRequest.responseText);
