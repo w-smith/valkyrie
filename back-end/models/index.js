@@ -9,6 +9,9 @@ module.exports.sequelize = sequelize;
 let Users = sequelize.import("./users");
 let Games = sequelize.import("./games");
 
+Games.belongsTo(Users);
+Users.hasMany(Games, {foreignKey: 'email'});
+
 module.exports.models = {
 	Users: Users,
     Games: Games
