@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/w-smith/valkyrie/issues"
   },
-  "homepage": "https://github.com/w-smith/valkyrie#readme"
+  "homepage": "https://github.com/w-smith/valkyrie#readme",
+  "dependencies": {
+    "cors": "^2.8.4"
+  }
 }

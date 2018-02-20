@@ -5,6 +5,8 @@ const port = process.env.PORT || 3000;
 const path = require('path');
 const Sequelize = require('sequelize');
 require('dotenv').config();
+const cors = require('cors');
+app.use(cors());
 
 // Load Routes
 const router = require('./config/routes');
