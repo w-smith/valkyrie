@@ -26,8 +26,10 @@ ngOnInit() { }
 api() {
 	// console.log($('#input').val())
 	var input = $('#input').val()
+	
 	var ourRequest = new XMLHttpRequest();
-	ourRequest.open('GET','http://cors.io/?https://www.giantbomb.com/api/search/?api_key=' + environment.apikey +'&format=json&query='+input+'&resources=game'); 
+	ourRequest.setRequestHeader("Content-Type", '*');
+	ourRequest.open('GET','https://www.giantbomb.com/api/search/?api_key=' + environment.apikey +'&format=json&query='+input+'&resources=game'); 
 		ourRequest.onload = function() {
 		var ourData = JSON.parse(ourRequest.responseText);
 		console.log(ourData);
