@@ -26,7 +26,8 @@ export class AuthService {
     })
     
     .catch(err => {
-      console.log('Something went wrong: ', err.message);
+      // console.log('Something went wrong: ', err.message);
+      alert("Incorrect email or password");
     });
   }
 
