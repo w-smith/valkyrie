@@ -20,18 +20,21 @@ var DB = require("../models").models;
 //         process.exit();
 // });
 
-const userCreate = [
+const gameCreate = [
     {
-        name: 'RJ McBain',
-        username: 'Rectal Jam'
+        game: 'Battlefield 1',
+        platform: 'PS4',
+        year: '2016'
     },
     {
-        name: 'Matt Steffey',
-        username: 'MalcomFlex'
+        game: 'Diablo 3',
+        platform: 'PC',
+        year: '2012'
     },
     {
-        name: 'Will Smith',
-        username: 'HelenStellar'
+        game: 'Fallout 4',
+        platform: 'PS4',
+        year: '2015'
     }
 ]
 
@@ -40,7 +43,7 @@ const userCreate = [
 // };
 
 
-	DB.Users.bulkCreate(userCreate, function(err, users) { 
+	DB.Games.bulkCreate(gameCreate, function(err, games) { 
 
 	  if (err){
 		return console.log('Error:', err);

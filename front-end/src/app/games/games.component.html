@@ -1,0 +1,12 @@
+<form (ngSubmit)="updateGame(updatedGame)">
+  <label for="game">Game:</label>
+  <input name="game" [(ngModel)]="updatedGame.game">
+
+  <label for="platform">Platform:</label>
+  <input name="platform" [(ngModel)]="updatedGame.platform">
+
+  <label for="year">Year:</label>
+  <input name="year" [(ngModel)]="updatedGame.year">
+
+  <input type="submit" value="Update">
+</form>

@@ -20,6 +20,21 @@ router.put('/api/users/:id', usersController.update);
 // destroy
 router.delete('/api/users/:id', usersController.destroy);
 
+// index
+router.get('/api/games', gamesController.index);
+
+// create
+router.post('/api/games', gamesController.create);
+
+// show
+router.get('/api/games/:id', gamesController.show);
+
+// update
+router.put('/api/games/:id', gamesController.update);
+
+// destroy
+router.delete('/api/games/:id', gamesController.destroy);
+
 
 // router.get('/hello', usersController.hello);
 router.get('/api/index', usersController.index);
