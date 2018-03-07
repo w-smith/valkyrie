@@ -28,7 +28,7 @@ api() {
 	var input = $('#input').val()
 	
 	var ourRequest = new XMLHttpRequest();
-	ourRequest.open('GET','https://secret-tundra-25084.herokuapp.com/https://www.giantbomb.com/api/search/?api_key=' + environment.apikey +'&format=json&query='+input+'&resources=game'); 
+	ourRequest.open('GET','https://cors-anywhere.herokuapp.com/https://www.giantbomb.com/api/search/?api_key=' + environment.apikey +'&format=jsonp&query='+input+'&resources=game?json_callback=?'); 
 		ourRequest.onload = function() {
 		var ourData = JSON.parse(ourRequest.responseText);
 		console.log(ourData);

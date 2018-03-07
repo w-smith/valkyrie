@@ -30,4 +30,4 @@ describe('LoginComponent', () => {
     expect(compiled.querySelector("#titlediv").textContent).toContain('Valkyrie');
 
 
-});
+  }))});

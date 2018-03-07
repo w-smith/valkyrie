@@ -1,5 +1,11 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { SearchComponent } from './search.component';
+import { Component, OnInit } from '@angular/core';
+declare var jquery:any;
+declare var $ :any;
+import { AppComponent } from '../app.component';
+import { environment } from '../../environments/environment'
+
 
 
 describe('SearchComponent', () => {
@@ -8,7 +14,9 @@ describe('SearchComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ SearchComponent ]
+      declarations: [ SearchComponent, AppComponent ],
+      providers: [ environment ]
+      
     })
     .compileComponents();
   }));
@@ -22,4 +30,13 @@ describe('SearchComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should create', () => {
+    expect(component.api).toBeTruthy();
+  });
+
 });
+
+
+
+
